@@ -1,5 +1,5 @@
 # change prompt:
-PS1="docker> "
+PS1="docker-client> "
 
 # change path to allow execution from current directory:
 export PATH=.:$PATH
