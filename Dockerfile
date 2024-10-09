@@ -16,3 +16,4 @@ RUN adduser -S user -G users -D
 # install any additional python packages we need:
 #
 RUN pip3 install requests
+RUN pip3 install jsons
