@@ -35,6 +35,14 @@ body = response.json()  ## dictionary { message, data }
 
 print()
 print(body['message'])
+
+movies = body['data']
+
 print()
-print(body['data'])
+print("# of movies:", len(movies))
+
+print()
+for i in range(0,10): # print first 10 rows 
+  print(movies[i])
+
 
